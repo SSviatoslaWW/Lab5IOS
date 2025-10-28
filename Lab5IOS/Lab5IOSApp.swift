@@ -11,7 +11,7 @@ import SwiftUI
 struct Lab5IOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            APODView()
         }
     }
 }
