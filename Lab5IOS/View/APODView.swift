@@ -47,8 +47,6 @@ struct APODView: View {
     }
 }
 
-// Я виніс основний контент в окрему структуру для чистоти коду.
-// Це відповідає рекомендаціям Apple щодо декомпозиції UI.
 struct APODContentView: View {
     let apod: APODModel
     

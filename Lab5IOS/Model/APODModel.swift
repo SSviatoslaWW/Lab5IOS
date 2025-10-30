@@ -12,7 +12,7 @@ struct APODModel: Codable, Identifiable {
     let explanation: String
     let mediaType: String
     let title: String
-    let url: String // URL до зображення або відео
+    let url: String // URL до зображення
     
     // Оскільки JSON використовує 'snake_case' (media_type),
     // а Swift 'camelCase' (mediaType), ми кажемо декодеру,

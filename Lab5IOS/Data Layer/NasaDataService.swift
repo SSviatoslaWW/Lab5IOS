@@ -25,7 +25,6 @@ class NasaDataService {
         
         urlComponents.queryItems = [
             URLQueryItem(name: "api_key", value: apiKey)
-            // Примітка: сюди можна додати й інші параметри, наприклад, 'date'
         ]
         
         guard let url = urlComponents.url else {
